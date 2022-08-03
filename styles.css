@@ -6,7 +6,7 @@ html {
 
 body {
     font-family: 'Lexend Deca', sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: 400;
     
 }
@@ -92,6 +92,30 @@ body {
     color:#f2f2f2;
     background-color: transparent;
 }
+
+footer {
+    width: 100%;
+    height: 30px;
+    margin-top: 130px;
+}
+
+.attribution {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.attribution p a {
+    text-decoration: none;
+    color: #016972;
+}
+
+.attribution p a:hover {
+    color: #E28525;
+}
+
+
 
 @media (min-width: 813px) {
     .container {
